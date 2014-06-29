@@ -58,8 +58,7 @@ void quickselect::execute(va_list args)
     
     vector<int> numbers;
     vector<int> largest;
-    make_heap(numbers.begin(), numbers.end(), std::greater<int>());
-    
+        
     auto ms = chrono::system_clock::now().time_since_epoch() / chrono::milliseconds(1);
     
     default_random_engine generator(static_cast<default_random_engine::result_type>(ms));
