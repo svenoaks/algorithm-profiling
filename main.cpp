@@ -21,8 +21,8 @@ using namespace algortest;
 
 int main()
 {
-    const int n = 10000000;
-    const int m = 1000;
+    const int n = 100000;
+    const int m = 10000;
     const int numArguments = 2;
     
     unique_ptr<algorithm> brutus{new mLargestBrute};
