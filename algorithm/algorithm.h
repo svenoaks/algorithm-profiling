@@ -42,6 +42,8 @@ namespace algortest
         
         time_type result();
         void printResult();
+        
+        virtual ~algorithm() {}
     };
     
     template<typename TimeT>
